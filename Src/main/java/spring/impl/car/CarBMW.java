@@ -8,6 +8,14 @@ public class CarBMW implements Car {
     AudioSystem audioSystem;
     NavigationSystem navigationSystem;
 
+    public CarBMW(AudioSystem aAudioSystem, NavigationSystem aNavigationSystem){
+        this.audioSystem = aAudioSystem;
+        this.navigationSystem = aNavigationSystem;
+    }
+
+    public CarBMW(){
+
+    }
 
     @Override
     public void move() {
